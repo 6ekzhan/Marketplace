@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="?android:colorControlHighlight"
+    android:background="?attr/selectableItemBackground"
+    tools:targetAPI="lollipop">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ed7171" />
+            <stroke
+                android:color="#d66060"
+                android:width="2dp" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+</ripple>
