@@ -13,7 +13,7 @@ class Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        tv_register.setOnClickListener {
+        link_register.setOnClickListener {
             startActivity(Intent(this, Register::class.java))
         }
 

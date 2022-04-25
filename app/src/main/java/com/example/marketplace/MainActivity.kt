@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         val userId = intent.getStringExtra("user_id")
         val emailId = intent.getStringExtra("email_id")
-        tv_user_id.setText("User ID:: $userId")
-        tv_email_id.setText( "Email ID:: $emailId")
+        user_id.setText("User ID:: $userId")
+        email_id.setText( "Email ID:: $emailId")
 
         button.setOnClickListener{
             //Logout

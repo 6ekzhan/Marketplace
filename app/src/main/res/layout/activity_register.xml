@@ -62,17 +62,17 @@
         app:layout_constraintTop_toBottomOf="@id/password_et" />
 
     <TextView
-        android:id="@+id/tv_register"
-        android:layout_width="193dp"
-        android:layout_height="23dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="592dp"
-        android:gravity="center_horizontal|top"
+        android:id="@+id/link_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:ems="10"
         android:text="I have account"
+        android:textSize="14sp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/button"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
