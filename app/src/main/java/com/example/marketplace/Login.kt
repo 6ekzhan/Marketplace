@@ -14,7 +14,6 @@ import com.google.firebase.database.*
 import com.rey.material.widget.CheckBox
 import io.paperdb.Paper
 import kotlinx.android.synthetic.main.activity_login.*
-import kotlinx.android.synthetic.main.activity_register.*
 
 class Login : AppCompatActivity() {
     private var loginButton: Button? = null
@@ -82,6 +81,7 @@ class Login : AppCompatActivity() {
                             ).show()
                             loadingBar!!.dismiss()
                             val intent = Intent(this@Login, Home::class.java)
+                            Prevalent.currentOnlineUser = usersData
                             startActivity(intent)
                         } else {
                             loadingBar!!.dismiss()
